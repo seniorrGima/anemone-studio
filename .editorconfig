@@ -1,0 +1,26 @@
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 4
+
+[*.xml]
+max_line_length = off
+
+[*.toml]
+max_line_length = off
+
+[*.{kt,kts}]
+max_line_length = 120
+
+ktlint_code_style = android
+ktlint_standard_annotation = disabled
+ktlint_standard_no-semi = disabled
+ktlint_standard_spacing-between-declarations-with-annotations = disabled
+ktlint_standard_trailing-comma-on-declaration-site = disabled
+ktlint_standard_trailing-comma-on-call-site = disabled
+
+ij_kotlin_blank_lines_before_declaration_with_comment_or_annotation_on_separate_line = 0
+ij_kotlin_line_break_after_multiline_when_entry = false

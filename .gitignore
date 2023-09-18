@@ -1,0 +1,18 @@
+# IDEA
+*.iml
+.idea/*
+!.idea/copyright
+!/.idea/codeStyles
+/.idea/codeStyles/*
+!/.idea/codeStyles/Project.xml
+!/.idea/codeStyles/codeStyleConfig.xml
+
+# Gradle
+.gradle
+local.properties
+
+# Folders
+build/
+
+# Files
+.DS_Store

@@ -1,0 +1,22 @@
+[versions]
+# App
+agp = "8.1.1"
+kotlin = "1.9.10"
+# Androidx
+androidx-composeBom = "2023.09.00"
+androidx-navigationCompose = "2.7.2"
+
+[plugins]
+# Android
+android-application = { id = "com.android.application", version.ref = "agp" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+# Kotlin
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
+[libraries]
+# Build-logic
+plugin-androidGradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "agp" }
+plugin-kotlinGradlePlugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
+# Androidx
+androidx-composeBom = { group = "androidx.compose", name = "compose-bom", version.ref = "androidx-composeBom" }
+androidx-navigationCompose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "androidx-navigationCompose" }
